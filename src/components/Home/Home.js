@@ -10,7 +10,7 @@ import data from "../../Assets/data.json"
 function Home() {
   return (
     <section>
-      <Container fluid className="home-section" id="home">
+      <Container fluid className="vh-100 home-section" id="home">
         <Particle />
         <Container className="home-content">
           <Row>
