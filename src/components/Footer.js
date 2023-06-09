@@ -13,7 +13,7 @@ function Footer() {
           <h6>Design inspired by Soumyajit Behera</h6>
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3></h3>
+          
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
