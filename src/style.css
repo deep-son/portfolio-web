@@ -57,18 +57,18 @@ button:focus {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #66FCF1;
+  background:  #0B0C10;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #0B0C10;
+  background: #66FCF1;
   border-radius: 12px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #1F2833;
+  background: #66FCF1;
   border-radius: 12px;
 }
 
