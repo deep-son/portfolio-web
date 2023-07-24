@@ -9,9 +9,9 @@ function Footer() {
   return (
     <Container fluid className="footer">
       <Row>
-        <Col md="4" className="footer-copywright">
+        {/* <Col md="4" className="footer-copywright">
           <h6>Design inspired by Soumyajit Behera</h6>
-        </Col>
+        </Col> */}
         <Col md="4" className="footer-copywright">
           
         </Col>
@@ -29,7 +29,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/deepanshusonparote/"
+                href="https://www.linkedin.com/in/deepanshusonparote/"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"

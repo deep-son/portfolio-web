@@ -6,6 +6,11 @@ import {
   } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import Badge from "react-bootstrap/Badge";
+import {
+  AiFillGithub,
+  AiFillInstagram,
+} from "react-icons/ai";
+import { FaLinkedinIn, FaEnvelope, FaHackerrank } from "react-icons/fa";
 function Experience(props) {
     if (props.data) {
         var work = props.data.experience.map(function (work, i) {
@@ -95,6 +100,68 @@ function Experience(props) {
           </VerticalTimeline>
           </Col>
           <Col md={1}></Col>
+        </Row>
+        <Row>
+          <Col md={12} className="home-about-social">
+            <h1 className="purple">FIND ME ON</h1>
+            <p>
+              Feel free to <span className="purple">connect </span>with me
+            </p>
+            <ul className="home-about-social-links">
+            <li className="social-icons">
+                <a
+                  href="mailto:deepanshusonparote@gmail.com"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <FaEnvelope />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://github.com/deep-son"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <AiFillGithub />
+                </a>
+              </li>
+            
+              <li className="social-icons">
+                <a
+                  href="https://www.linkedin.com/in/deepanshusonparote/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <FaLinkedinIn />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://www.hackerrank.com/deepanshusonpar1?hr_r=1"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                >
+                  <FaHackerrank />
+                </a>
+              </li>
+
+              <li className="social-icons">
+                <a
+                  href="https://www.instagram.com/deep_son_"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                >
+                  <AiFillInstagram />
+                </a>
+              </li>
+            </ul>
+          </Col>
         </Row>
       </Container>
     </Container>

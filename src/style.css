@@ -274,6 +274,9 @@ button:focus {
   font-size: 2.4em !important;
   padding-left: 50px !important;
 }
+.contact {
+  font-size: 1.4em !important;
+}
 
 .heading-name {
   font-size: 2.5em !important;
@@ -330,6 +333,13 @@ button:focus {
   text-align: center;
 }
 
+.home-about-contact {
+  color: #66FCF1 !important;
+  padding-top: 20px;
+  padding-bottom: 20px !important;
+  text-align: center;
+}
+
 .home-about-body {
   padding-top: 50px;
   font-size: 1.2em !important;
@@ -358,7 +368,7 @@ button:focus {
   text-align: center !important;
   font-size: 1.2em !important;
   line-height: 2em !important;
-  background: rgba(255, 255, 255, 0.972) !important;
+  background: rgba(0, 0, 0, 0.972) !important;
   border-radius: 50% !important;
   transition: 0.5s !important;
 }
@@ -470,7 +480,7 @@ button:focus {
 .project-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
-  box-shadow: 0 4px 4px 5px #C5C6C7 !important;
+  box-shadow: 0 4px 4px 5px #363636 !important;
 }
 
 .blog-card {

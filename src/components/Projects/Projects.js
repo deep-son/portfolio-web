@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import remind_me from "../../Assets/Projects/remind_me.png";
+import cdd from "../../Assets/Projects/cdd.png";
+import sentiment from "../../Assets/Projects/sentiment.png";
+import hey_gpt from "../../Assets/Projects/hey_gpt.png";
+import voice_cloner from "../../Assets/Projects/voice_cloner.png";
+
 
 function Projects() {
   return (
@@ -18,73 +18,63 @@ function Projects() {
           My Recent <strong className="purple">Works </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+          Here are a few <strong className="purple">personal projects </strong> I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={remind_me}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Remind Me"
+              description="The Data Collection and Reminder System is a project that collects data from users through a Google Form, processes it using AWS Lambda, and securely stores it in AWS databases. It also includes a reminder service for upcoming events. Leveraging AWS infrastructure for efficiency."
+              ghLink="https://github.com/deep-son/RemindMe"
+              
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={hey_gpt}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Hey GPT!"
+              description="Your Intelligent Conversational AI:
+              The Chatbot Lambda Function is an AWS-powered serverless app that interacts with users via Telegram. Utilizing GPT-3.5-turbo from OpenAI, it generates contextually relevant responses, ensuring seamless conversations. Stored in an S3 bucket for continuity, this AI-driven chatbot offers user-friendly interactions and easy deployment."
+              ghLink="https://github.com/deep-son/gpt_bot"
+              demoLink="https://t.me/DragonEliBot" 
+              
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={voice_cloner}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Voice Cloner"
+              description="
+              The voice cloner uses Tensorflow's TTS model with short voice clips (<20s) and transcripts. A mapper file associates parts of speech with the transcripts for generating mel-spectrograms, converted to audible waveforms using a vocoder. This recreates realistic and natural-sounding voices from the input data"
+              ghLink="https://github.com/deep-son/Voice_Cloner"
+              // demoLink="https://editor.soumya-jit.tech/"              
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
-              isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              imgPath={cdd}
+              isBlog={true}
+              title="Crop Disease Detection AI"
+              description="Our project enhances crop health monitoring by identifying diseases through image classification models. Farmers can easily upload images via a user-friendly web interface and receive tailored remedies for effective disease management, resulting in healthier and more productive crops."
+              ghLink="https://www.irjet.net/archives/V7/i5/IRJET-V7I5621.pdf"
+              // demoLink="https://www.irjet.net/archives/V7/i5/IRJET-V7I5621.pdf"
             />
           </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={sentiment}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Amazon.de Customer Sentiment Analysis"
+              description="Our project involved analyzing Amazon.de product reviews for the top-selling mobile phones. We summarized sentiments and ratings to uncover valuable insights into customers' opinions and satisfaction levels. This analysis assisted potential buyers in making informed decisions about the best mobile phones that met their needs and preferences."
+              ghLink="https://github.com/deep-son/Sentiment-German"
+              // demoLink="https://www.irjet.net/archives/V7/i5/IRJET-V7I5621.pdf"
             />
           </Col>
         </Row>

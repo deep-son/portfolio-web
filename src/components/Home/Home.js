@@ -4,8 +4,9 @@ import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
-import Experience from "./Experience"
-import data from "../../Assets/data.json"
+import Experience from "./Experience";
+import data from "../../Assets/data.json";
+
 
 function Home() {
   return (
@@ -37,6 +38,7 @@ function Home() {
               />
             </Col> */}
           </Row>
+          
         </Container>
       </Container>
       <Home2 />

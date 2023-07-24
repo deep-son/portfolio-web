@@ -1,13 +1,13 @@
 {
     "projects": [
       {
-        "title": "Remind Me! ",
+        "title": "Remind Me!",
         "startDate": "2023",
         "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
         "images": [
           "images/portfolio/remind_me/BirthdayApp.png"
         ],
-        "url": "https://github.com/deep-son/BirthdayApp"
+        "url": "https://github.com/deep-son/RemindMe"
       },
       {
         "title": "Hey GPT!",
@@ -23,16 +23,15 @@
       {
         "company": "Porsche AG",
         "title": "Master Thesis Student",
-        "years": "May 2023 - Present",
+        "years": "June 2023 - Present",
         "icon": "fas fa-graduation-cap mx-auto experience-icon",
         "mainTech": [
-          "Angular 8/9/10"
+          
         ],
         "technologies": [
-          "AutoML", "Explainable AI"
+          "AutoML", "Explainable AI", "Data Analysis", "Synthetic Data Generation"
         ],
         "responsibilities": [
-          "test"
         ]
       },
       {
@@ -41,10 +40,9 @@
         "years": "Dec 2022 - Mar 2023",
         "icon": "fa fa-laptop-code mx-auto experience-icon",
         "technologies": [
-          "Data Modelling","Data Warehousing", "Data Analytics"
+          "Data Modelling","Data Warehousing", "Data Analytics", "Data Pipeline"
         ],
         "responsibilities": [
-          "test"
         ]
       },
       {
@@ -53,12 +51,10 @@
         "years": "Apr 2022 - Oct 2022",
         "icon": "fa fa-user-hard-hat mx-auto experience-icon",
         "technologies": [
-          "AIoT","Deep Learning","Web Development"
+          "AIoT","Deep Learning","Web Development", "Natural Language Processing"
         ]
         ,
         "responsibilities": [
-          " Developed an online analytical tool to map industrial use cases to governance", "Created an end-to-end web platform for logistics handling and product management using React and Google Firebase", "Audio Signal classification for smartwiper operation in digital.auto"
-
         ]
       }
       ,
@@ -72,7 +68,18 @@
         ]
         ,
         "responsibilities": [
-          " Developed Python scripts for automatic metadata extraction from CANape files","Provided support for data pre-processing and quality management in an automated parking system","Conducted root cause analysis of varied data distribution to enhance the performance of ML models"
+        ]
+      },
+      {
+        "company": "Murf AI",
+        "title": "Internship",
+        "years": "Dec 2020 - Mar 2021",
+        "icon": "fa fa-user-hard-hat mx-auto experience-icon",
+        "technologies": [
+          "Deep Learning", "Text-to-speech", "Data PreProcessing"
+        ]
+        ,
+        "responsibilities": [
         ]
       }
     ]
