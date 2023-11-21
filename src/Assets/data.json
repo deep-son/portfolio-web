@@ -22,14 +22,14 @@
     "experience": [
       {
         "company": "Porsche AG",
-        "title": "Master Thesis Student",
-        "years": "June 2023 - Present",
+        "title": "AI  Werktudent",
+        "years": "Nov 2023 - Present",
         "icon": "fas fa-graduation-cap mx-auto experience-icon",
         "mainTech": [
           
         ],
         "technologies": [
-          "AutoML", "Explainable AI", "Data Analysis", "Synthetic Data Generation"
+          "AutoML", "Generative AI", "Data Analysis", "Synthetic Data Generation", "GAN"
         ],
         "responsibilities": [
         ]
